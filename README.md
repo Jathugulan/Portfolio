@@ -2,328 +2,672 @@
 
 <div align="center">
 
-![Portfolio Preview](assets/og/og-banner.png)
+<img src="assets/og/og-banner.png" alt="Raveendran Jathugulan Portfolio" width="100%">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Jathugulan-181717?style=for-the-badge&logo=github)](https://github.com/Jathugulan)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Raveendran%20Jathugulan-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/raveendran-jathugulan/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-6366f1?style=for-the-badge&logo=googlechrome)](https://jathugulan.github.io/)
-[![Email](https://img.shields.io/badge/Email-jathugulan2022%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:jathugulan2022@gmail.com)
+### 👨‍💻 Full Stack Developer | MERN Stack | Web Application Developer
 
-**Premium Full Stack Developer Portfolio — Static, Fast, GitHub Pages Ready**
+**Building modern, responsive, scalable and user-focused web applications.**
+
+<p>
+  <a href="https://portfolio-jathugulan.vercel.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Portfolio-6366F1?style=for-the-badge" alt="Live Portfolio">
+  </a>
+  <a href="https://github.com/Jathugulan">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/raveendran-jathugulan/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="mailto:jathugulan2022@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail" alt="Email">
+  </a>
+</p>
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 🌐 Live Portfolio
 
-- [Overview](#-overview)
-- [Live Demo](#-live-demo)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Sections](#-sections)
-- [Featured Projects](#-featured-projects)
-- [Certifications](#-certifications)
-- [Performance](#-performance)
-- [Accessibility](#-accessibility)
-- [SEO](#-seo)
-- [Deployment](#-deployment)
-- [Contact](#-contact)
+### 🔥 [portfolio-jathugulan.vercel.app](https://portfolio-jathugulan.vercel.app)
+
+A premium developer portfolio designed to showcase my **technical skills, professional experience, projects, certifications, education and contact information** through a modern interactive user interface.
 
 ---
 
-## 🌟 Overview
+# 📌 About The Project
 
-A modern, premium **Full Stack Developer Portfolio** built as a fully static website using pure **HTML5**, **CSS3**, and **ES6+ JavaScript** — no frameworks, no build tools, no npm required. Designed for immediate GitHub Pages deployment and optimized for recruiter review.
+This portfolio is a professionally designed **single-page personal portfolio website** created to present my development journey and technical capabilities to recruiters, companies, clients and collaborators.
 
-> 🎯 **Goal:** Present a clean, professional, and interactive portfolio that demonstrates real engineering capability and reflects modern 2026/2027 web design standards.
+The website focuses on:
 
----
+* 🎨 Premium modern UI/UX
+* 📱 Fully responsive design
+* ⚡ Fast loading and lightweight architecture
+* 🌓 Dark / Light theme support
+* ✨ Smooth animations and micro-interactions
+* 💼 Professional project showcase
+* 🏆 Certification gallery
+* 📄 ATS-friendly resume access
+* 📬 EmailJS-powered contact form
+* 🔍 SEO optimization
+* ♿ Accessibility-friendly implementation
+* 🧭 Interactive navigation and scroll-spy
 
-## 🔗 Live Demo
-
-**[https://jathugulan.github.io/](https://jathugulan.github.io/)**
-
----
-
-## ✨ Features
-
-### 🎨 Design & UI
-
-- **3D Interactive Hero Card** with Vanilla Tilt parallax, animated profile ring, and floating tech badges
-- **Glassmorphism UI** with backdrop-filter blur, surface layers, and subtle borders
-- **Dark / Light Mode** toggle, persisted in `localStorage`
-- **Animated ambient background** with radial gradient blobs and a dot grid overlay
-- **Smooth scroll progress bar** and visible section active indicator
-- **Micro-animations** throughout (hover lifts, gradient shifts, staggered AOS reveals)
-- **Typed.js** role animation cycling through developer titles
-
-### 🗂️ Sections
-
-- 9 fully separated sections with scroll-spy active state in the navbar
-- Dedicated **Experience timeline**, **Education card**, **Skills explorer**, **Projects grid**, **Certifications gallery**, **Resume download**, and **Contact form**
-
-### 🖼️ Projects & Galleries
-
-- **3-column project grid** (2 on tablet, 1 on mobile) with category filter pills
-- **Swiper.js screenshot lightbox** with keyboard navigation, touch swipe, slide counter, and ESC close
-- **Real project thumbnails** from `assets/projects/` — no placeholder images
-- **Direct GitHub repository links** on every project card
-
-### 📬 Contact Form
-
-- **EmailJS integration** for server-free form submission
-- Client-side validation with inline error messages and toast notifications
-- Graceful degradation if EmailJS is unavailable
-
-### ⚡ Performance
-
-- **Instant first paint** — zero preloaders or artificial loading delays
-- `loading="lazy"` and `decoding="async"` on all non-critical images
-- Eager loading only for the profile photo in navbar and hero
-- CDN failure protection — any failing optional library gracefully degrades
-
-### ♿ Accessibility
-
-- Semantic HTML5 elements (`<header>`, `<main>`, `<section>`, `<footer>`, `<article>`, `<nav>`)
-- `aria-label`, `aria-expanded`, `aria-controls`, `role`, `aria-modal`, and `aria-live` attributes throughout
-- Keyboard navigation for modals (ESC to close, Tab focus trapping intent)
-- Visible `:focus-visible` indicators
-- Full support for `@media (prefers-reduced-motion: reduce)`
+The original portfolio is built as a **static web application using HTML5, CSS3 and modern JavaScript**, without requiring a frontend framework or build system.
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Premium Features
 
-### Core
+## 🎨 Modern UI / UX
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Semantic page structure |
-| CSS3 | Design system, animations, layout |
-| JavaScript ES6+ | Logic, DOM, event handling |
-
-### CDN Libraries
-
-| Library | Version | Purpose |
-|---|---|---|
-| [Bootstrap](https://getbootstrap.com/) | 5.3.3 | Responsive grid utilities |
-| [Font Awesome](https://fontawesome.com/) | 6.5.2 | Icon set |
-| [AOS](https://michalsnik.github.io/aos/) | 2.3.4 | Scroll-triggered animations |
-| [Typed.js](https://mattboldt.com/demos/typed-js/) | 2.1.0 | Hero role typing effect |
-| [Vanilla Tilt](https://micku7zu.github.io/vanilla-tilt.js/) | 1.8.1 | 3D tilt interaction on cards |
-| [Swiper.js](https://swiperjs.com/) | 11 | Project screenshots lightbox |
-| [EmailJS](https://www.emailjs.com/) | 4 | Client-side email form |
-| [Google Fonts](https://fonts.google.com/) | — | Space Grotesk, Inter, JetBrains Mono |
+* Glassmorphism-inspired interface
+* Premium dark and light themes
+* Responsive layout system
+* Animated gradient backgrounds
+* Interactive hover effects
+* Smooth section transitions
+* Modern typography
+* Professional card-based design
+* Animated buttons and CTAs
+* Scroll progress indicator
+* Back-to-top functionality
 
 ---
 
-## 📁 Project Structure
+## 🧑‍💻 Interactive Hero Section
 
-```
+The hero section introduces my professional profile with:
+
+* Dynamic developer role animation
+* Interactive 3D profile card
+* Animated profile ring
+* Floating technology badges
+* Professional introduction
+* Resume CTA
+* Contact CTA
+* Social media links
+
+The portfolio uses Typed.js and Vanilla Tilt to enhance the hero interaction.
+
+---
+
+# 🧩 Portfolio Sections
+
+| #  | Section           | Highlights                                      |
+| -- | ----------------- | ----------------------------------------------- |
+| 01 | 🏠 Home           | Interactive hero, profile and CTAs              |
+| 02 | 👨‍💻 About       | Professional summary and development journey    |
+| 03 | 💼 Experience     | Internship and professional experience timeline |
+| 04 | 🎓 Education      | Academic background                             |
+| 05 | 🛠️ Skills        | Categorized technical skills                    |
+| 06 | 🚀 Projects       | Projects with filtering and screenshots         |
+| 07 | 🏆 Certifications | Professional certificates and training          |
+| 08 | 📄 Resume         | Resume preview and download                     |
+| 09 | 📬 Contact        | EmailJS contact form and social links           |
+
+The portfolio currently follows this nine-section structure.
+
+---
+
+# 🛠️ Technology Stack
+
+## Core Technologies
+
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</p>
+
+## UI & Frontend
+
+<p>
+<img src="https://img.shields.io/badge/Bootstrap-5.3.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+<img src="https://img.shields.io/badge/Font_Awesome-6.5.2-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white">
+</p>
+
+## Interactive Libraries
+
+| Library      | Purpose                         |
+| ------------ | ------------------------------- |
+| Bootstrap    | Responsive utilities and layout |
+| Font Awesome | Professional icon system        |
+| AOS          | Scroll-triggered animations     |
+| Typed.js     | Dynamic typing animation        |
+| Vanilla Tilt | 3D card interaction             |
+| Swiper.js    | Project screenshot gallery      |
+| EmailJS      | Serverless contact form         |
+
+These libraries and versions are documented in the current project README.
+
+---
+
+# 🚀 Featured Projects
+
+## 🍽️ Vadamarutham Restaurant
+
+Restaurant management / web application project.
+
+**Technologies:** React, Node.js, MongoDB, Leaflet
+
+🔗 [View Repository](https://github.com/Jathugulan/vadamarutham-restaurant)
+
+---
+
+## 🩸 Blood Donation Emergency Matcher
+
+Emergency blood-request and donor matching platform.
+
+**Technologies:** MERN, TypeScript, Socket.IO
+
+🔗 [View Repository](https://github.com/Jathugulan/blood-donation-emergency-matcher)
+
+---
+
+## 📚 Tholan Book Shop
+
+Modern online bookstore application.
+
+**Technologies:** React, Redux Toolkit, Express.js, MongoDB
+
+🔗 [View Repository](https://github.com/Jathugulan/tholan-book-shop)
+
+---
+
+## 👨‍🏫 TeacherPayRoll ERP
+
+ERP-style payroll management application.
+
+**Technologies:** MERN, JWT, Google OAuth
+
+🔗 [View Repository](https://github.com/Jathugulan/TeacherPayRollERP)
+
+---
+
+## 🧠 QuizMaster Pro
+
+Interactive quiz management platform.
+
+**Technologies:** React, Vite, Node.js, MongoDB
+
+🔗 [View Repository](https://github.com/Jathugulan/quizmaster-pro-mern)
+
+---
+
+## 🚗 QuickRide Vehicle Rental
+
+Vehicle rental and booking management system.
+
+**Technologies:** MERN, Mongoose, REST API
+
+🔗 [View Repository](https://github.com/Jathugulan/quickride-vehicle-rental-booking)
+
+---
+
+## 🎓 Alumni Management System
+
+Web-based alumni management system.
+
+**Technologies:** PHP, MySQL, Bootstrap 5
+
+🔗 [View Repository](https://github.com/Jathugulan/Alumni-Management-system)
+
+---
+
+## 🌐 Yarl Skill Hub
+
+Skill development and management platform.
+
+**Technologies:** HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL, AJAX, Chart.js
+
+🔗 [View Repository](https://github.com/Jathugulan/yarl-skill-hub)
+
+---
+
+## 💊 PharmaNova
+
+Pharmacy management application.
+
+**Technologies:** C#, .NET Framework, SQL Server
+
+🔗 [View Repository](https://github.com/Jathugulan/PharmaNova)
+
+The project list and technology associations above are based on the portfolio README you provided.
+
+---
+
+# 💼 Professional Experience
+
+### Full Stack Web Development Intern
+
+**Pantech.AI**
+
+* 3-month Full Stack Web Development internship
+* Worked with modern web development technologies
+* Developed practical full-stack application skills
+* Applied software development concepts in real-world projects
+
+### R&D / Full Stack Development Internship
+
+**NoviTech R&D**
+
+* One-month internship / masterclass experience
+* Practical exposure to modern application development
+* Strengthened frontend and backend development skills
+
+The existing portfolio identifies Pantech.AI and NoviTech R&D in its experience timeline.
+
+---
+
+# 🎓 Education
+
+### Bachelor of Information and Communication Technology (Hons)
+
+**University of Vavuniya**
+Faculty of Technological Studies
+
+**2023 – Present**
+
+---
+
+# 🛠️ Technical Skills
+
+### 💻 Programming Languages
+
+* JavaScript
+* TypeScript
+* Python
+* Java
+* C++
+* C#
+* PHP
+* SQL
+
+### 🎨 Frontend Development
+
+* HTML5
+* CSS3
+* JavaScript
+* React.js
+* Next.js
+* Bootstrap
+* Tailwind CSS
+* Redux
+* Context API
+
+### ⚙️ Backend Development
+
+* Node.js
+* Express.js
+* PHP
+* Laravel
+* Django
+* RESTful APIs
+* .NET
+
+### 🗄️ Databases
+
+* MongoDB
+* MongoDB Atlas
+* MySQL
+* SQL Server
+
+### 🔐 Authentication & Security
+
+* JWT
+* bcrypt
+* Role-Based Access Control
+* OAuth
+
+### 🔧 Development Tools
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* REST APIs
+
+---
+
+# 🖼️ Project Gallery
+
+The portfolio includes a dedicated project gallery with:
+
+* Real project thumbnails
+* Category filtering
+* Project cards
+* GitHub repository links
+* Screenshot previews
+* Image lightbox
+* Keyboard navigation
+* Touch/swipe interaction
+* ESC-to-close support
+
+Swiper.js is used for the project screenshot experience.
+
+---
+
+# 🏆 Certifications
+
+Selected certifications and training include:
+
+* Full Stack Web Development Internship — **Pantech.AI**
+* 30 Days MasterClass in Full Stack Development — **NoviTech R&D**
+* Full Stack Development — **Simplilearn**
+* Introduction to MERN Stack — **Simplilearn**
+* Web Design for Beginners — **University of Moratuwa**
+* Professional Certificate in DevOps — **Udemy**
+* Artificial Intelligence — **Pantech.AI**
+* Machine Learning — **Pantech.AI**
+* I2OR Young Innovator Mindset Certification — **I2OR**
+* Introduction to JavaScript — **Sololearn**
+* Introduction to SQL — **Sololearn**
+* Introduction to Python — **Saylor Academy**
+* Java (Basic) — **HackerRank**
+
+The full certification list is maintained in the portfolio's certification section.
+
+---
+
+# 📄 Resume
+
+An ATS-friendly resume is available directly through the portfolio.
+
+**Resume:** `assets/resume/Raveendran-Jathugulan-Resume.pdf`
+
+The portfolio provides both direct resume access and PDF viewing/download functionality.
+
+---
+
+# 📬 Contact
+
+I'm open to:
+
+* 💼 Internship opportunities
+* 👨‍💻 Full Stack Developer opportunities
+* 🚀 Software development projects
+* 🤝 Collaboration
+* 🌱 Open-source projects
+* 💡 Innovative technology projects
+
+| Platform            | Contact                                                                     |
+| ------------------- | --------------------------------------------------------------------------- |
+| 📧 Email            | [jathugulan2022@gmail.com](mailto:jathugulan2022@gmail.com)                 |
+| 📱 Phone / WhatsApp | +94 779362339                                                               |
+| 📍 Location         | Point Pedro, Jaffna, Sri Lanka                                              |
+| 💼 LinkedIn         | [Raveendran Jathugulan](https://www.linkedin.com/in/raveendran-jathugulan/) |
+| 🐙 GitHub           | [Jathugulan](https://github.com/Jathugulan)                                 |
+| 🌐 Portfolio        | [portfolio-jathugulan.vercel.app](https://portfolio-jathugulan.vercel.app)  |
+
+---
+
+# 📬 Contact Form
+
+The portfolio uses **EmailJS** to provide serverless contact-form functionality.
+
+### Features
+
+* Client-side validation
+* Inline validation messages
+* Success/error toast notifications
+* Email delivery
+* Graceful fallback when the EmailJS library is unavailable
+
+The existing implementation documents EmailJS as the portfolio's contact-form service.
+
+---
+
+# ⚡ Performance
+
+Performance is a major design consideration.
+
+### Optimizations
+
+* ⚡ Instant first paint
+* 🖼️ Lazy loading for non-critical images
+* 🚀 Asynchronous image decoding
+* 📦 No unnecessary build process
+* 🧩 Graceful CDN failure handling
+* 🧹 Lightweight JavaScript
+* 📱 Responsive rendering
+* 🔄 Optimized animations
+
+The current implementation specifically uses lazy loading and asynchronous decoding for non-critical images.
+
+---
+
+# ♿ Accessibility
+
+Accessibility considerations include:
+
+* Semantic HTML5 elements
+* ARIA labels
+* Keyboard navigation
+* Focus-visible states
+* Accessible modals
+* Screen-reader-friendly live regions
+* Reduced-motion support
+* Accessible interactive controls
+
+The portfolio uses semantic HTML and ARIA attributes throughout its interactive components.
+
+---
+
+# 🔍 SEO & Social Sharing
+
+The portfolio includes:
+
+* SEO-friendly page title
+* Meta description
+* Open Graph metadata
+* Twitter Card metadata
+* Canonical URL
+* Structured heading hierarchy
+* Single primary `<h1>`
+* Optimized social preview image
+* Secure external links
+
+The project's current SEO implementation includes Open Graph/Twitter metadata and canonical URL support.
+
+---
+
+# 📁 Project Structure
+
+```text
 portfolio/
-├── index.html                      # Main portfolio (single-page)
-├── README.md                       # This file
+│
+├── index.html
+├── README.md
 │
 └── assets/
+    │
     ├── profile/
-    │   └── profile.jpg             # Developer profile photo
+    │   └── profile.jpg
     │
     ├── projects/
     │   ├── mern/
-    │   │   ├── vadamarutham/       # thumbnail.webp + screenshots 01-04
-    │   │   ├── blood-donation/     # thumbnail.webp + screenshots 01-04
-    │   │   ├── tholan-bookshop/    # thumbnail.webp + screenshots 01-04
-    │   │   ├── teacher-payroll/    # thumbnail.webp + screenshots 01-04
-    │   │   ├── quizmaster-pro/     # thumbnail.webp + screenshots 01-04
-    │   │   └── quickride/          # thumbnail.webp + screenshots 01-04
+    │   │   ├── vadamarutham/
+    │   │   ├── blood-donation/
+    │   │   ├── tholan-bookshop/
+    │   │   ├── teacher-payroll/
+    │   │   ├── quizmaster-pro/
+    │   │   └── quickride/
+    │   │
     │   ├── php/
-    │   │   ├── alumni-management/    # thumbnail.webp
-    │   │   └── yarl-skill-hub/       # thumbnail.webp
+    │   │   ├── alumni-management/
+    │   │   └── yarl-skill-hub/
+    │   │
     │   └── dotnet/
     │       └── pharmanova/
-    │           ├── pharmanova.webp       # thumbnail
-    │           └── Home.webp             # screenshot
     │
     ├── certificates/
-    │   ├── full-stack/             # Full Stack certificates (.jpg + .pdf)
-    │   ├── mern/                   # MERN Stack certificates
-    │   ├── mean/                   # MEAN Stack certificates
-    │   ├── web-development/        # Web Development certificates
-    │   ├── ai-ml/                  # AI & Machine Learning certificates
-    │   ├── devops/                 # DevOps certificates
-    │   ├── innovation/             # Innovation & Mindset certificates
-    │   ├── technology/             # JavaScript, programming certificates
-    │   ├── sql/                    # SQL & Database certificates
-    │   ├── python/                 # Python certificates
-    │   └── java/                   # Java certificates
+    │   ├── full-stack/
+    │   ├── mern/
+    │   ├── mean/
+    │   ├── web-development/
+    │   ├── ai-ml/
+    │   ├── devops/
+    │   ├── innovation/
+    │   ├── technology/
+    │   ├── sql/
+    │   ├── python/
+    │   └── java/
     │
     ├── resume/
     │   └── Raveendran-Jathugulan-Resume.pdf
     │
-    ├── technologies/               # SVG tech logos for Skills section
-    ├── icons/                      # Favicon assets
+    ├── technologies/
+    ├── icons/
+    │
     └── og/
-        └── og-banner.png           # Open Graph social preview image
+        └── og-banner.png
 ```
 
----
-
-## 📂 Sections
-
-| # | Section | Description |
-|---|---|---|
-| 1 | **Home / Hero** | 3D interactive profile card, Typed.js role animation, CTAs |
-| 2 | **About** | Bio, engineering pillars, animated stats (9+ projects, 2 internships, 20+ technologies) |
-| 3 | **Experience** | Vertical timeline — Pantech.AI (3-month) & NoviTech R&D (1-month) internships |
-| 4 | **Education** | BICT Hons — University of Vavuniya, Faculty of Technological Studies (2023–Present) |
-| 5 | **Skills** | Categorized explorer across Languages, Frontend, Backend, Databases, Tools, DevOps, APIs, Soft Skills |
-| 6 | **Projects** | Filter-driven grid with real thumbnails, GitHub links, and screenshot lightbox |
-| 7 | **Certifications** | Filter-driven gallery with 15+ verified credentials, PDF view/download, and image preview |
-| 8 | **Resume** | Direct download and PDF view of ATS-friendly resume |
-| 9 | **Contact** | EmailJS form, copyable email/phone, and social links |
+This structure reflects the current project organization documented in your supplied README.
 
 ---
 
-## 💼 Featured Projects
+# 🚀 Run Locally
 
-| Project | Stack | Repository |
-|---|---|---|
-| Vadamarutham Restaurant | React, Node, MongoDB, Leaflet | [GitHub](https://github.com/Jathugulan/vadamarutham-restaurant) |
-| Blood Donation Emergency Matcher | MERN, TypeScript, Socket.IO | [GitHub](https://github.com/Jathugulan/blood-donation-emergency-matcher) |
-| Tholan Book Shop | React, Redux Toolkit, Express, MongoDB | [GitHub](https://github.com/Jathugulan/tholan-book-shop) |
-| TeacherPayRoll ERP | MERN, JWT, Google OAuth | [GitHub](https://github.com/Jathugulan/TeacherPayRollERP) |
-| QuizMaster Pro MERN | React, Vite, Node, MongoDB | [GitHub](https://github.com/Jathugulan/quizmaster-pro-mern) |
-| QuickRide Vehicle Rental | MERN, Mongoose, REST API | [GitHub](https://github.com/Jathugulan/quickride-vehicle-rental-booking) |
-| Alumni Management System | PHP, MySQL, Bootstrap 5 | [GitHub](https://github.com/Jathugulan/Alumni-Management-system) |
-| Yarl Skill Hub | HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL, AJAX, Chart.js | [GitHub](https://github.com/Jathugulan/yarl-skill-hub) |
-| PharmaNova | C#, .NET Framework, SQL Server | [GitHub](https://github.com/Jathugulan/PharmaNova) |
+Because this is a static website, no npm installation or build process is required.
 
----
-
-## 🏆 Certifications
-
-- 30 Days MasterClass in Full Stack Development — **NoviTech R&D**
-- Full Stack Web Development Internship — **Pantech.AI**
-- Full Stack Development — **Simplilearn**
-- Introduction to MERN Stack — **Simplilearn**
-- Web Design for Beginners — **University of Moratuwa**
-- Professional Certificate in DevOps — **Udemy**
-- Artificial Intelligence — **Pantech.AI**
-- Machine Learning — **Pantech.AI**
-- I2OR Young Innovator Mindset Certification — **I2OR**
-- Introduction to JavaScript — **Sololearn**
-- Introduction to SQL — **Sololearn**
-- Introduction to Python — **Saylor Academy**
-- Java (Basic) Certificate — **HackerRank**
-
----
-
-## ⚡ Performance
-
-- **Instant first paint** — no preloaders, no blocking JavaScript
-- `loading="lazy"` + `decoding="async"` for all non-critical images
-- CDN libraries do not block page visibility if they fail
-- Scroll progress bar, back-to-top, and AOS are pure performance-safe additions
-
----
-
-## ♿ Accessibility
-
-- Full semantic HTML5 structure
-- ARIA attributes on all interactive elements
-- Keyboard navigation support (modals, menu, buttons)
-- Focus-visible indicators
-- Reduced motion support via `prefers-reduced-motion`
-
----
-
-## 🔍 SEO
-
-- Descriptive `<title>` and `<meta name="description">`
-- Open Graph and Twitter Card meta tags
-- Single `<h1>` per page with proper heading hierarchy (`h1` → `h2` → `h3`)
-- Canonical URL
-- `rel="noopener noreferrer"` on all external links
-
----
-
-## 🚀 Deployment
-
-### Local Development
-
-No build step required. Simply serve the `portfolio/` folder:
+### Option 1 — Python
 
 ```bash
-# Python (built-in)
 python -m http.server 8080
+```
 
-# Node.js (npx serve)
+### Option 2 — Node.js
+
+```bash
 npx serve .
-
-# VS Code Live Server
-# Right-click index.html → "Open with Live Server"
 ```
 
-Then open **http://localhost:8080** in your browser.
+### Option 3 — VS Code
 
-### GitHub Pages
+Use **Live Server** and open `index.html`.
 
-1. Push the contents of this folder to a GitHub repository named `<your-username>.github.io`
-2. Go to **Settings → Pages → Source** and set the branch to `main` (root `/`)
-3. Your portfolio will be live at `https://<your-username>.github.io/`
+Then visit:
 
-> **Note:** The site is fully static — no server, no npm, no build process required.
-
-### Custom Domain (Optional)
-
-Add a `CNAME` file in the repository root:
-
-```
-yourcustomdomain.com
-```
-
-Then configure your domain's DNS with a CNAME record pointing to `<your-username>.github.io`.
-
----
-
-## 📬 EmailJS Setup
-
-To activate the contact form email delivery:
-
-1. Create a free account at [emailjs.com](https://www.emailjs.com/)
-2. Create an **Email Service** and note the **Service ID**
-3. Create an **Email Template** and note the **Template ID**
-4. Copy your **Public Key** from Account → API Keys
-5. Update the constants in `index.html`:
-
-```javascript
-const EMAILJS_PUBLIC_KEY  = 'your_public_key_here';
-const EMAILJS_SERVICE_ID  = 'your_service_id_here';
-const EMAILJS_TEMPLATE_ID = 'your_template_id_here';
+```text
+http://localhost:8080
 ```
 
 ---
 
-## 📞 Contact
+# ☁️ Deployment
 
-| Channel | Details |
-|---|---|
-| 📧 Email | [jathugulan2022@gmail.com](mailto:jathugulan2022@gmail.com) |
-| 📱 Phone / WhatsApp | +94 779362339 |
-| 📍 Location | Point Pedro, Jaffna, Sri Lanka |
-| 💼 LinkedIn | [raveendran-jathugulan](https://www.linkedin.com/in/raveendran-jathugulan/) |
-| 🐙 GitHub | [Jathugulan](https://github.com/Jathugulan) |
+## Vercel
+
+The current live deployment is:
+
+### 🌐 https://portfolio-jathugulan.vercel.app
+
+The project can be deployed directly to Vercel as a static website.
+
+### GitHub
+
+Repository:
+
+### 🐙 https://github.com/Jathugulan/Portfolio
+
+---
+
+# 🔄 Git Deployment
+
+```bash
+git init
+
+git add .
+
+git commit -m "feat: build premium developer portfolio"
+
+git branch -M main
+
+git remote add origin https://github.com/Jathugulan/Portfolio.git
+
+git push -u origin main
+```
+
+For future updates:
+
+```bash
+git add .
+
+git commit -m "update: improve portfolio UI and features"
+
+git push origin main
+```
+
+---
+
+# 🗺️ Future Improvements
+
+Planned enhancements for future versions may include:
+
+* [ ] Advanced project search
+* [ ] More project case studies
+* [ ] GitHub API integration
+* [ ] GitHub contribution visualization
+* [ ] Advanced analytics dashboard
+* [ ] Blog / technical articles
+* [ ] Multi-language support
+* [ ] More accessibility improvements
+* [ ] PWA support
+* [ ] Automated CI/CD workflow
+* [ ] Performance monitoring
+* [ ] Additional interactive 3D experiences
+
+---
+
+# 🎯 Portfolio Goals
+
+This portfolio is designed to demonstrate more than just visual design.
+
+It represents practical experience with:
+
+**Frontend Development → Backend Development → Database Design → API Integration → Authentication → Responsive UI → Deployment → Performance → Accessibility**
+
+The goal is to continuously improve as a **Full Stack Developer** and build production-quality applications that solve real-world problems.
+
+---
+
+# ⭐ Support
+
+If you find this portfolio useful, interesting or inspiring:
+
+⭐ **Star the repository**
+
+🍴 **Fork the project**
+
+💬 **Share feedback**
+
+🤝 **Connect with me**
 
 ---
 
 <div align="center">
 
+## 👨‍💻 Raveendran Jathugulan
+
+**Full Stack Developer**
+
+Building • Learning • Improving • Creating
+
+<br>
+
+<a href="https://portfolio-jathugulan.vercel.app">
+<img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-6366F1?style=for-the-badge">
+</a>
+
+<a href="https://github.com/Jathugulan">
+<img src="https://img.shields.io/badge/⭐_GitHub-181717?style=for-the-badge&logo=github">
+</a>
+
+<br><br>
+
 **© 2026 Raveendran Jathugulan · All Rights Reserved**
-
-*Full Stack Developer · MERN Stack · Sri Lanka*
-
-⭐ **If you found this portfolio useful or inspiring, please consider giving the repository a star!**
 
 </div>
