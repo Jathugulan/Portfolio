@@ -375,7 +375,7 @@ The full certification list is maintained in the portfolio's certification secti
 
 An ATS-friendly resume is available directly through the portfolio.
 
-**Resume:** `assets/resume/Raveendran-Jathugulan-Resume.pdf`
+**Resume:** `assets/resume/Raveendran_Jathugulan_CV.pdf`
 
 The portfolio provides both direct resume access and PDF viewing/download functionality.
 
@@ -516,7 +516,7 @@ portfolio/
     │   └── java/
     │
     ├── resume/
-    │   └── Raveendran-Jathugulan-Resume.pdf
+    │   └── Raveendran_Jathugulan_CV.pdf
     │
     ├── technologies/
     ├── icons/
